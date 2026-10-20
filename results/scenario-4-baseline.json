@@ -1,0 +1,1218 @@
+{
+  "scenario": "4",
+  "mode": "baseline",
+  "at": "2026-10-20T03:05:53.475Z",
+  "node": "v25.9.0",
+  "platform": "linux",
+  "arch": "x64",
+  "runs": [
+    {
+      "config": {
+        "DROP_RATE": "0.3"
+      },
+      "results": [
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P1",
+            "status": "PAID",
+            "chargeId": "C1"
+          },
+          "durationMs": 41.65107199999693
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank connection lost; charge outcome unknown",
+            "paymentId": "P2",
+            "status": "PENDING"
+          },
+          "durationMs": 3.681478000002244
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank connection lost; charge outcome unknown",
+            "paymentId": "P3",
+            "status": "PENDING"
+          },
+          "durationMs": 2.64907900000253
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P4",
+            "status": "PAID",
+            "chargeId": "C4"
+          },
+          "durationMs": 3.1646719999989728
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P5",
+            "status": "PAID",
+            "chargeId": "C5"
+          },
+          "durationMs": 3.2566010000009555
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank connection lost; charge outcome unknown",
+            "paymentId": "P6",
+            "status": "PENDING"
+          },
+          "durationMs": 2.634874999999738
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P7",
+            "status": "PAID",
+            "chargeId": "C7"
+          },
+          "durationMs": 2.7037660000023607
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P8",
+            "status": "PAID",
+            "chargeId": "C8"
+          },
+          "durationMs": 4.42802699999811
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P9",
+            "status": "PAID",
+            "chargeId": "C9"
+          },
+          "durationMs": 3.290512999999919
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P10",
+            "status": "PAID",
+            "chargeId": "C10"
+          },
+          "durationMs": 3.1671519999981683
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P11",
+            "status": "PAID",
+            "chargeId": "C11"
+          },
+          "durationMs": 2.228844000001118
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P12",
+            "status": "PAID",
+            "chargeId": "C12"
+          },
+          "durationMs": 2.5014049999990675
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P13",
+            "status": "PAID",
+            "chargeId": "C13"
+          },
+          "durationMs": 2.234037999998691
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank connection lost; charge outcome unknown",
+            "paymentId": "P14",
+            "status": "PENDING"
+          },
+          "durationMs": 1.928502999999182
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P15",
+            "status": "PAID",
+            "chargeId": "C15"
+          },
+          "durationMs": 1.9495019999994838
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P16",
+            "status": "PAID",
+            "chargeId": "C16"
+          },
+          "durationMs": 2.2746679999982007
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P17",
+            "status": "PAID",
+            "chargeId": "C17"
+          },
+          "durationMs": 1.9606949999979406
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank connection lost; charge outcome unknown",
+            "paymentId": "P18",
+            "status": "PENDING"
+          },
+          "durationMs": 2.0176900000005844
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P19",
+            "status": "PAID",
+            "chargeId": "C19"
+          },
+          "durationMs": 2.8067750000009255
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P20",
+            "status": "PAID",
+            "chargeId": "C20"
+          },
+          "durationMs": 1.9522350000006554
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P21",
+            "status": "PAID",
+            "chargeId": "C21"
+          },
+          "durationMs": 2.196200999998837
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank connection lost; charge outcome unknown",
+            "paymentId": "P22",
+            "status": "PENDING"
+          },
+          "durationMs": 1.5672940000004019
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P23",
+            "status": "PAID",
+            "chargeId": "C23"
+          },
+          "durationMs": 2.3828040000007604
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P24",
+            "status": "PAID",
+            "chargeId": "C24"
+          },
+          "durationMs": 1.992801000000327
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P25",
+            "status": "PAID",
+            "chargeId": "C25"
+          },
+          "durationMs": 2.1574299999992945
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank connection lost; charge outcome unknown",
+            "paymentId": "P26",
+            "status": "PENDING"
+          },
+          "durationMs": 1.8456179999993765
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P27",
+            "status": "PAID",
+            "chargeId": "C27"
+          },
+          "durationMs": 2.2101540000003297
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P28",
+            "status": "PAID",
+            "chargeId": "C28"
+          },
+          "durationMs": 2.088746000001265
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P29",
+            "status": "PAID",
+            "chargeId": "C29"
+          },
+          "durationMs": 2.0326419999983045
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P30",
+            "status": "PAID",
+            "chargeId": "C30"
+          },
+          "durationMs": 2.150832999999693
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank connection lost; charge outcome unknown",
+            "paymentId": "P31",
+            "status": "PENDING"
+          },
+          "durationMs": 1.8235480000003008
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P32",
+            "status": "PAID",
+            "chargeId": "C32"
+          },
+          "durationMs": 2.188568999998097
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank connection lost; charge outcome unknown",
+            "paymentId": "P33",
+            "status": "PENDING"
+          },
+          "durationMs": 2.1615439999986847
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P34",
+            "status": "PAID",
+            "chargeId": "C34"
+          },
+          "durationMs": 2.0686040000000503
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank connection lost; charge outcome unknown",
+            "paymentId": "P35",
+            "status": "PENDING"
+          },
+          "durationMs": 1.7251109999997425
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P36",
+            "status": "PAID",
+            "chargeId": "C36"
+          },
+          "durationMs": 2.034121000000596
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P37",
+            "status": "PAID",
+            "chargeId": "C37"
+          },
+          "durationMs": 2.159088000000338
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank connection lost; charge outcome unknown",
+            "paymentId": "P38",
+            "status": "PENDING"
+          },
+          "durationMs": 1.5873070000016014
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank connection lost; charge outcome unknown",
+            "paymentId": "P39",
+            "status": "PENDING"
+          },
+          "durationMs": 1.8097240000024613
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P40",
+            "status": "PAID",
+            "chargeId": "C40"
+          },
+          "durationMs": 2.4861179999970773
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank connection lost; charge outcome unknown",
+            "paymentId": "P41",
+            "status": "PENDING"
+          },
+          "durationMs": 2.1244950000000244
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank connection lost; charge outcome unknown",
+            "paymentId": "P42",
+            "status": "PENDING"
+          },
+          "durationMs": 1.8255869999993593
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P43",
+            "status": "PAID",
+            "chargeId": "C43"
+          },
+          "durationMs": 3.165555999999924
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P44",
+            "status": "PAID",
+            "chargeId": "C44"
+          },
+          "durationMs": 1.964191999999457
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank connection lost; charge outcome unknown",
+            "paymentId": "P45",
+            "status": "PENDING"
+          },
+          "durationMs": 1.74016599999959
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P46",
+            "status": "PAID",
+            "chargeId": "C46"
+          },
+          "durationMs": 1.7007770000018354
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P47",
+            "status": "PAID",
+            "chargeId": "C47"
+          },
+          "durationMs": 1.9222199999967415
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P48",
+            "status": "PAID",
+            "chargeId": "C48"
+          },
+          "durationMs": 2.001064000000042
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank connection lost; charge outcome unknown",
+            "paymentId": "P49",
+            "status": "PENDING"
+          },
+          "durationMs": 1.8236519999991287
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P50",
+            "status": "PAID",
+            "chargeId": "C50"
+          },
+          "durationMs": 1.8975590000009106
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P51",
+            "status": "PAID",
+            "chargeId": "C51"
+          },
+          "durationMs": 1.7656019999994896
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P52",
+            "status": "PAID",
+            "chargeId": "C52"
+          },
+          "durationMs": 1.8034929999994347
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P53",
+            "status": "PAID",
+            "chargeId": "C53"
+          },
+          "durationMs": 1.7392199999994773
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P54",
+            "status": "PAID",
+            "chargeId": "C54"
+          },
+          "durationMs": 1.8137679999999818
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P55",
+            "status": "PAID",
+            "chargeId": "C55"
+          },
+          "durationMs": 1.6944599999987986
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P56",
+            "status": "PAID",
+            "chargeId": "C56"
+          },
+          "durationMs": 1.777130999998917
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P57",
+            "status": "PAID",
+            "chargeId": "C57"
+          },
+          "durationMs": 1.9679419999993115
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P58",
+            "status": "PAID",
+            "chargeId": "C58"
+          },
+          "durationMs": 1.9717369999998482
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P59",
+            "status": "PAID",
+            "chargeId": "C59"
+          },
+          "durationMs": 1.9106979999996838
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank connection lost; charge outcome unknown",
+            "paymentId": "P60",
+            "status": "PENDING"
+          },
+          "durationMs": 1.6467200000006414
+        }
+      ],
+      "summary": {
+        "total": 60,
+        "paid": 43,
+        "failed": 0,
+        "pending": 17,
+        "minMs": 1.5672940000004019,
+        "maxMs": 41.65107199999693,
+        "p95Ms": 3.290512999999919
+      },
+      "totalMs": 174.2171300000009,
+      "outstandingBefore": 50000000,
+      "outstandingAfter": 49957000,
+      "statsBefore": {
+        "connections": 1,
+        "requests": 0,
+        "charges": 0,
+        "duplicates": 0
+      },
+      "statsAfter": {
+        "connections": 61,
+        "requests": 60,
+        "charges": 60,
+        "duplicates": 0
+      },
+      "statsDelta": {
+        "connections": 60,
+        "requests": 60,
+        "charges": 60,
+        "duplicates": 0
+      },
+      "monitorConnections": 0,
+      "bankConnections": 60,
+      "pass": false
+    },
+    {
+      "config": {
+        "FAIL_RATE": "0.3"
+      },
+      "results": [
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P1",
+            "status": "PAID",
+            "chargeId": "C1"
+          },
+          "durationMs": 37.15426699999807
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P2",
+            "status": "PAID",
+            "chargeId": "C2"
+          },
+          "durationMs": 4.1028669999977865
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P3",
+            "status": "PAID",
+            "chargeId": "C3"
+          },
+          "durationMs": 3.0818379999982426
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P4",
+            "status": "PAID",
+            "chargeId": "C4"
+          },
+          "durationMs": 4.211849999999686
+        },
+        {
+          "code": 503,
+          "body": {
+            "error": "Temporary bank failure before charge",
+            "paymentId": "P5",
+            "status": "FAILED"
+          },
+          "durationMs": 3.3278299999983574
+        },
+        {
+          "code": 503,
+          "body": {
+            "error": "Temporary bank failure before charge",
+            "paymentId": "P6",
+            "status": "FAILED"
+          },
+          "durationMs": 2.9670329999971727
+        },
+        {
+          "code": 503,
+          "body": {
+            "error": "Temporary bank failure before charge",
+            "paymentId": "P7",
+            "status": "FAILED"
+          },
+          "durationMs": 2.625460999999632
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P8",
+            "status": "PAID",
+            "chargeId": "C5"
+          },
+          "durationMs": 2.8419799999974202
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P9",
+            "status": "PAID",
+            "chargeId": "C6"
+          },
+          "durationMs": 4.639177000000927
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P10",
+            "status": "PAID",
+            "chargeId": "C7"
+          },
+          "durationMs": 2.4852890000001935
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P11",
+            "status": "PAID",
+            "chargeId": "C8"
+          },
+          "durationMs": 1.9245609999998123
+        },
+        {
+          "code": 503,
+          "body": {
+            "error": "Temporary bank failure before charge",
+            "paymentId": "P12",
+            "status": "FAILED"
+          },
+          "durationMs": 1.9132929999977932
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P13",
+            "status": "PAID",
+            "chargeId": "C9"
+          },
+          "durationMs": 1.912864999998419
+        },
+        {
+          "code": 503,
+          "body": {
+            "error": "Temporary bank failure before charge",
+            "paymentId": "P14",
+            "status": "FAILED"
+          },
+          "durationMs": 2.090530999998009
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P15",
+            "status": "PAID",
+            "chargeId": "C10"
+          },
+          "durationMs": 2.353115000001708
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P16",
+            "status": "PAID",
+            "chargeId": "C11"
+          },
+          "durationMs": 1.995545999998285
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P17",
+            "status": "PAID",
+            "chargeId": "C12"
+          },
+          "durationMs": 2.9177730000010342
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P18",
+            "status": "PAID",
+            "chargeId": "C13"
+          },
+          "durationMs": 2.0136920000004466
+        },
+        {
+          "code": 503,
+          "body": {
+            "error": "Temporary bank failure before charge",
+            "paymentId": "P19",
+            "status": "FAILED"
+          },
+          "durationMs": 2.071968000000197
+        },
+        {
+          "code": 503,
+          "body": {
+            "error": "Temporary bank failure before charge",
+            "paymentId": "P20",
+            "status": "FAILED"
+          },
+          "durationMs": 2.042111999999179
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P21",
+            "status": "PAID",
+            "chargeId": "C14"
+          },
+          "durationMs": 2.0401310000015656
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P22",
+            "status": "PAID",
+            "chargeId": "C15"
+          },
+          "durationMs": 1.9279439999991155
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P23",
+            "status": "PAID",
+            "chargeId": "C16"
+          },
+          "durationMs": 2.5760430000009364
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P24",
+            "status": "PAID",
+            "chargeId": "C17"
+          },
+          "durationMs": 3.59931399999914
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P25",
+            "status": "PAID",
+            "chargeId": "C18"
+          },
+          "durationMs": 3.929384000002756
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P26",
+            "status": "PAID",
+            "chargeId": "C19"
+          },
+          "durationMs": 2.4785030000020924
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P27",
+            "status": "PAID",
+            "chargeId": "C20"
+          },
+          "durationMs": 1.902964000000793
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P28",
+            "status": "PAID",
+            "chargeId": "C21"
+          },
+          "durationMs": 2.083829000002879
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P29",
+            "status": "PAID",
+            "chargeId": "C22"
+          },
+          "durationMs": 2.1567670000004
+        },
+        {
+          "code": 503,
+          "body": {
+            "error": "Temporary bank failure before charge",
+            "paymentId": "P30",
+            "status": "FAILED"
+          },
+          "durationMs": 2.1206879999990633
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P31",
+            "status": "PAID",
+            "chargeId": "C23"
+          },
+          "durationMs": 2.099247000001924
+        },
+        {
+          "code": 503,
+          "body": {
+            "error": "Temporary bank failure before charge",
+            "paymentId": "P32",
+            "status": "FAILED"
+          },
+          "durationMs": 2.0703060000014375
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P33",
+            "status": "PAID",
+            "chargeId": "C24"
+          },
+          "durationMs": 2.1440370000018447
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P34",
+            "status": "PAID",
+            "chargeId": "C25"
+          },
+          "durationMs": 1.93251600000076
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P35",
+            "status": "PAID",
+            "chargeId": "C26"
+          },
+          "durationMs": 2.0240709999998217
+        },
+        {
+          "code": 503,
+          "body": {
+            "error": "Temporary bank failure before charge",
+            "paymentId": "P36",
+            "status": "FAILED"
+          },
+          "durationMs": 2.0487260000008973
+        },
+        {
+          "code": 503,
+          "body": {
+            "error": "Temporary bank failure before charge",
+            "paymentId": "P37",
+            "status": "FAILED"
+          },
+          "durationMs": 1.9710920000034093
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P38",
+            "status": "PAID",
+            "chargeId": "C27"
+          },
+          "durationMs": 2.8996100000003935
+        },
+        {
+          "code": 503,
+          "body": {
+            "error": "Temporary bank failure before charge",
+            "paymentId": "P39",
+            "status": "FAILED"
+          },
+          "durationMs": 2.056276000002981
+        },
+        {
+          "code": 503,
+          "body": {
+            "error": "Temporary bank failure before charge",
+            "paymentId": "P40",
+            "status": "FAILED"
+          },
+          "durationMs": 1.815214999998716
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P41",
+            "status": "PAID",
+            "chargeId": "C28"
+          },
+          "durationMs": 2.073873999997886
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P42",
+            "status": "PAID",
+            "chargeId": "C29"
+          },
+          "durationMs": 3.2768450000003213
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P43",
+            "status": "PAID",
+            "chargeId": "C30"
+          },
+          "durationMs": 1.9657420000003185
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P44",
+            "status": "PAID",
+            "chargeId": "C31"
+          },
+          "durationMs": 1.9646380000012869
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P45",
+            "status": "PAID",
+            "chargeId": "C32"
+          },
+          "durationMs": 4.234909000002517
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P46",
+            "status": "PAID",
+            "chargeId": "C33"
+          },
+          "durationMs": 2.4249390000004496
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P47",
+            "status": "PAID",
+            "chargeId": "C34"
+          },
+          "durationMs": 1.8757740000000922
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P48",
+            "status": "PAID",
+            "chargeId": "C35"
+          },
+          "durationMs": 1.8817510000008042
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P49",
+            "status": "PAID",
+            "chargeId": "C36"
+          },
+          "durationMs": 1.9401560000005702
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P50",
+            "status": "PAID",
+            "chargeId": "C37"
+          },
+          "durationMs": 1.942098999999871
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P51",
+            "status": "PAID",
+            "chargeId": "C38"
+          },
+          "durationMs": 2.185179000000062
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P52",
+            "status": "PAID",
+            "chargeId": "C39"
+          },
+          "durationMs": 3.492613000002166
+        },
+        {
+          "code": 503,
+          "body": {
+            "error": "Temporary bank failure before charge",
+            "paymentId": "P53",
+            "status": "FAILED"
+          },
+          "durationMs": 3.0697520000030636
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P54",
+            "status": "PAID",
+            "chargeId": "C40"
+          },
+          "durationMs": 1.990286999996897
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P55",
+            "status": "PAID",
+            "chargeId": "C41"
+          },
+          "durationMs": 1.9337400000003981
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P56",
+            "status": "PAID",
+            "chargeId": "C42"
+          },
+          "durationMs": 1.9000420000011218
+        },
+        {
+          "code": 503,
+          "body": {
+            "error": "Temporary bank failure before charge",
+            "paymentId": "P57",
+            "status": "FAILED"
+          },
+          "durationMs": 1.883705000000191
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P58",
+            "status": "PAID",
+            "chargeId": "C43"
+          },
+          "durationMs": 1.9076310000018566
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P59",
+            "status": "PAID",
+            "chargeId": "C44"
+          },
+          "durationMs": 2.628208000001905
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P60",
+            "status": "PAID",
+            "chargeId": "C45"
+          },
+          "durationMs": 2.803133000001253
+        }
+      ],
+      "summary": {
+        "total": 60,
+        "paid": 45,
+        "failed": 15,
+        "pending": 0,
+        "minMs": 1.815214999998716,
+        "maxMs": 37.15426699999807,
+        "p95Ms": 4.211849999999686
+      },
+      "totalMs": 185.02327200000218,
+      "outstandingBefore": 50000000,
+      "outstandingAfter": 49955000,
+      "statsBefore": {
+        "connections": 1,
+        "requests": 0,
+        "charges": 0,
+        "duplicates": 0
+      },
+      "statsAfter": {
+        "connections": 61,
+        "requests": 60,
+        "charges": 45,
+        "duplicates": 0
+      },
+      "statsDelta": {
+        "connections": 60,
+        "requests": 60,
+        "charges": 45,
+        "duplicates": 0
+      },
+      "monitorConnections": 0,
+      "bankConnections": 60,
+      "pass": false
+    },
+    {
+      "config": {},
+      "results": [
+        {
+          "code": 402,
+          "body": {
+            "error": "Bank limit is 20000000 VND",
+            "paymentId": "P1",
+            "status": "FAILED"
+          },
+          "durationMs": 36.336332999999286
+        }
+      ],
+      "summary": {
+        "total": 1,
+        "paid": 0,
+        "failed": 1,
+        "pending": 0,
+        "minMs": 36.336332999999286,
+        "maxMs": 36.336332999999286,
+        "p95Ms": 36.336332999999286
+      },
+      "totalMs": 36.4796430000024,
+      "outstandingBefore": 50000000,
+      "outstandingAfter": 50000000,
+      "statsBefore": {
+        "connections": 1,
+        "requests": 0,
+        "charges": 0,
+        "duplicates": 0
+      },
+      "statsAfter": {
+        "connections": 2,
+        "requests": 1,
+        "charges": 0,
+        "duplicates": 0
+      },
+      "statsDelta": {
+        "connections": 1,
+        "requests": 1,
+        "charges": 0,
+        "duplicates": 0
+      },
+      "monitorConnections": 0,
+      "bankConnections": 1,
+      "pass": true
+    }
+  ],
+  "pass": false
+}

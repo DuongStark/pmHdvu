@@ -8,7 +8,10 @@
   },
   "scripts": {
     "bank": "node src/bank/server.js",
-    "fee": "node src/fee/server.js"
+    "fee": "node src/fee/server.js",
+    "test": "node --test tests/*.test.js",
+    "benchmark": "node scripts/benchmark.js",
+    "report": "node scripts/report.js"
   },
   "dependencies": {
     "express": "4.22.3"

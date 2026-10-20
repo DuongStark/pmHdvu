@@ -1,0 +1,1218 @@
+{
+  "scenario": "4",
+  "mode": "resilient",
+  "at": "2026-10-20T03:08:49.298Z",
+  "node": "v25.9.0",
+  "platform": "linux",
+  "arch": "x64",
+  "runs": [
+    {
+      "config": {
+        "DROP_RATE": "0.3"
+      },
+      "results": [
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P1",
+            "status": "PAID",
+            "chargeId": "C1"
+          },
+          "durationMs": 151.7606940000005
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P2",
+            "status": "PAID",
+            "chargeId": "C2"
+          },
+          "durationMs": 12.100873999999749
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P3",
+            "status": "PAID",
+            "chargeId": "C3"
+          },
+          "durationMs": 4.963254000002053
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P4",
+            "status": "PAID",
+            "chargeId": "C4"
+          },
+          "durationMs": 4.1606900000006135
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P5",
+            "status": "PAID",
+            "chargeId": "C5"
+          },
+          "durationMs": 108.4118189999972
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P6",
+            "status": "PAID",
+            "chargeId": "C6"
+          },
+          "durationMs": 116.4828860000016
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P7",
+            "status": "PAID",
+            "chargeId": "C7"
+          },
+          "durationMs": 123.02062899999873
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P8",
+            "status": "PAID",
+            "chargeId": "C8"
+          },
+          "durationMs": 13.849978000002011
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P9",
+            "status": "PAID",
+            "chargeId": "C9"
+          },
+          "durationMs": 13.231096999999863
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P10",
+            "status": "PAID",
+            "chargeId": "C10"
+          },
+          "durationMs": 10.532532000001083
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P11",
+            "status": "PAID",
+            "chargeId": "C11"
+          },
+          "durationMs": 8.867279999998573
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P12",
+            "status": "PAID",
+            "chargeId": "C12"
+          },
+          "durationMs": 8.986564999999246
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P13",
+            "status": "PAID",
+            "chargeId": "C13"
+          },
+          "durationMs": 9.237153000001854
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P14",
+            "status": "PAID",
+            "chargeId": "C14"
+          },
+          "durationMs": 7.328085999997711
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P15",
+            "status": "PAID",
+            "chargeId": "C15"
+          },
+          "durationMs": 6.504417000000103
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P16",
+            "status": "PAID",
+            "chargeId": "C16"
+          },
+          "durationMs": 7.436111999999412
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P17",
+            "status": "PAID",
+            "chargeId": "C17"
+          },
+          "durationMs": 8.205312000001868
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P18",
+            "status": "PAID",
+            "chargeId": "C18"
+          },
+          "durationMs": 8.760213999998086
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P19",
+            "status": "PAID",
+            "chargeId": "C19"
+          },
+          "durationMs": 118.7147819999991
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P20",
+            "status": "PAID",
+            "chargeId": "C20"
+          },
+          "durationMs": 19.50657499999943
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P21",
+            "status": "PAID",
+            "chargeId": "C21"
+          },
+          "durationMs": 116.78735799999777
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P22",
+            "status": "PAID",
+            "chargeId": "C22"
+          },
+          "durationMs": 7.159970000000612
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P23",
+            "status": "PAID",
+            "chargeId": "C23"
+          },
+          "durationMs": 115.07276400000046
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P24",
+            "status": "PAID",
+            "chargeId": "C24"
+          },
+          "durationMs": 8.012298999998166
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P25",
+            "status": "PAID",
+            "chargeId": "C25"
+          },
+          "durationMs": 7.395014000001538
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P26",
+            "status": "PAID",
+            "chargeId": "C26"
+          },
+          "durationMs": 8.953437000000122
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P27",
+            "status": "PAID",
+            "chargeId": "C27"
+          },
+          "durationMs": 117.30624999999782
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P28",
+            "status": "PAID",
+            "chargeId": "C28"
+          },
+          "durationMs": 8.008646999998746
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P29",
+            "status": "PAID",
+            "chargeId": "C29"
+          },
+          "durationMs": 6.655900000001566
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P30",
+            "status": "PAID",
+            "chargeId": "C30"
+          },
+          "durationMs": 6.160251999997854
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P31",
+            "status": "PAID",
+            "chargeId": "C31"
+          },
+          "durationMs": 113.56099899999754
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P32",
+            "status": "PAID",
+            "chargeId": "C32"
+          },
+          "durationMs": 112.67978799999764
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P33",
+            "status": "PAID",
+            "chargeId": "C33"
+          },
+          "durationMs": 8.067267999998876
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P34",
+            "status": "PAID",
+            "chargeId": "C34"
+          },
+          "durationMs": 108.10076299999855
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P35",
+            "status": "PAID",
+            "chargeId": "C35"
+          },
+          "durationMs": 4.473175999999512
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P36",
+            "status": "PAID",
+            "chargeId": "C36"
+          },
+          "durationMs": 5.737741000000824
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P37",
+            "status": "PAID",
+            "chargeId": "C37"
+          },
+          "durationMs": 4.517908999998326
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P38",
+            "status": "PAID",
+            "chargeId": "C38"
+          },
+          "durationMs": 110.53061199999865
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P39",
+            "status": "PAID",
+            "chargeId": "C39"
+          },
+          "durationMs": 6.324130000000878
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P40",
+            "status": "PAID",
+            "chargeId": "C40"
+          },
+          "durationMs": 6.154361999997491
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P41",
+            "status": "PAID",
+            "chargeId": "C41"
+          },
+          "durationMs": 8.134626999999455
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P42",
+            "status": "PAID",
+            "chargeId": "C42"
+          },
+          "durationMs": 10.33038999999917
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P43",
+            "status": "PAID",
+            "chargeId": "C43"
+          },
+          "durationMs": 6.3654459999997925
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P44",
+            "status": "PAID",
+            "chargeId": "C44"
+          },
+          "durationMs": 105.98065400000269
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P45",
+            "status": "PAID",
+            "chargeId": "C45"
+          },
+          "durationMs": 2.7913020000014512
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P46",
+            "status": "PAID",
+            "chargeId": "C46"
+          },
+          "durationMs": 2.449741999997059
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P47",
+            "status": "PAID",
+            "chargeId": "C47"
+          },
+          "durationMs": 2.368287999997847
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P48",
+            "status": "PAID",
+            "chargeId": "C48"
+          },
+          "durationMs": 2.6282649999993737
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P49",
+            "status": "PAID",
+            "chargeId": "C49"
+          },
+          "durationMs": 111.07453199999873
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P50",
+            "status": "PAID",
+            "chargeId": "C50"
+          },
+          "durationMs": 11.651295000003302
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P51",
+            "status": "PAID",
+            "chargeId": "C51"
+          },
+          "durationMs": 9.163124999999127
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P52",
+            "status": "PAID",
+            "chargeId": "C52"
+          },
+          "durationMs": 111.30857600000309
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P53",
+            "status": "PAID",
+            "chargeId": "C53"
+          },
+          "durationMs": 6.683818999998039
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P54",
+            "status": "PAID",
+            "chargeId": "C54"
+          },
+          "durationMs": 6.404097999999067
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P55",
+            "status": "PAID",
+            "chargeId": "C55"
+          },
+          "durationMs": 6.4999079999979585
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P56",
+            "status": "PAID",
+            "chargeId": "C56"
+          },
+          "durationMs": 7.120414000000892
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P57",
+            "status": "PAID",
+            "chargeId": "C57"
+          },
+          "durationMs": 110.6945229999983
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P58",
+            "status": "PAID",
+            "chargeId": "C58"
+          },
+          "durationMs": 5.842111000001751
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P59",
+            "status": "PAID",
+            "chargeId": "C59"
+          },
+          "durationMs": 111.80270299999756
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P60",
+            "status": "PAID",
+            "chargeId": "C60"
+          },
+          "durationMs": 6.6668790000003355
+        }
+      ],
+      "summary": {
+        "total": 60,
+        "paid": 60,
+        "failed": 0,
+        "pending": 0,
+        "minMs": 2.368287999997847,
+        "maxMs": 151.7606940000005,
+        "p95Ms": 117.30624999999782
+      },
+      "totalMs": 2300.946884000001,
+      "outstandingBefore": 50000000,
+      "outstandingAfter": 49940000,
+      "statsBefore": {
+        "connections": 1,
+        "requests": 0,
+        "charges": 0,
+        "duplicates": 0
+      },
+      "statsAfter": {
+        "connections": 19,
+        "requests": 77,
+        "charges": 60,
+        "duplicates": 0
+      },
+      "statsDelta": {
+        "connections": 18,
+        "requests": 77,
+        "charges": 60,
+        "duplicates": 0
+      },
+      "monitorConnections": 0,
+      "bankConnections": 18,
+      "pass": true
+    },
+    {
+      "config": {
+        "FAIL_RATE": "0.3"
+      },
+      "results": [
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P1",
+            "status": "PAID",
+            "chargeId": "C1"
+          },
+          "durationMs": 30.81722599999921
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P2",
+            "status": "PAID",
+            "chargeId": "C2"
+          },
+          "durationMs": 324.40847399999984
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P3",
+            "status": "PAID",
+            "chargeId": "C3"
+          },
+          "durationMs": 13.972795999998198
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P4",
+            "status": "PAID",
+            "chargeId": "C4"
+          },
+          "durationMs": 11.941952000001038
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P5",
+            "status": "PAID",
+            "chargeId": "C5"
+          },
+          "durationMs": 116.95217100000082
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P6",
+            "status": "PAID",
+            "chargeId": "C6"
+          },
+          "durationMs": 15.945232999998552
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P7",
+            "status": "PAID",
+            "chargeId": "C7"
+          },
+          "durationMs": 12.054487000001245
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P8",
+            "status": "PAID",
+            "chargeId": "C8"
+          },
+          "durationMs": 10.477176000000327
+        },
+        {
+          "code": 503,
+          "body": {
+            "error": "Temporary bank failure before charge",
+            "paymentId": "P9",
+            "status": "FAILED"
+          },
+          "durationMs": 314.1839749999999
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P10",
+            "status": "PAID",
+            "chargeId": "C9"
+          },
+          "durationMs": 3.2896590000018477
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P11",
+            "status": "PAID",
+            "chargeId": "C10"
+          },
+          "durationMs": 104.96704899999895
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P12",
+            "status": "PAID",
+            "chargeId": "C11"
+          },
+          "durationMs": 1.7642220000016096
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P13",
+            "status": "PAID",
+            "chargeId": "C12"
+          },
+          "durationMs": 1.7057610000010754
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P14",
+            "status": "PAID",
+            "chargeId": "C13"
+          },
+          "durationMs": 1.633388999998715
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P15",
+            "status": "PAID",
+            "chargeId": "C14"
+          },
+          "durationMs": 1.835903999999573
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P16",
+            "status": "PAID",
+            "chargeId": "C15"
+          },
+          "durationMs": 4.344793000000209
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P17",
+            "status": "PAID",
+            "chargeId": "C16"
+          },
+          "durationMs": 103.93467500000042
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P18",
+            "status": "PAID",
+            "chargeId": "C17"
+          },
+          "durationMs": 104.05361400000038
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P19",
+            "status": "PAID",
+            "chargeId": "C18"
+          },
+          "durationMs": 1.8800910000027216
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P20",
+            "status": "PAID",
+            "chargeId": "C19"
+          },
+          "durationMs": 2.2084450000002107
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P21",
+            "status": "PAID",
+            "chargeId": "C20"
+          },
+          "durationMs": 2.9153670000014245
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P22",
+            "status": "PAID",
+            "chargeId": "C21"
+          },
+          "durationMs": 105.3050089999997
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P23",
+            "status": "PAID",
+            "chargeId": "C22"
+          },
+          "durationMs": 306.05617599999823
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P24",
+            "status": "PAID",
+            "chargeId": "C23"
+          },
+          "durationMs": 104.66489000000001
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P25",
+            "status": "PAID",
+            "chargeId": "C24"
+          },
+          "durationMs": 4.601986999998189
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P26",
+            "status": "PAID",
+            "chargeId": "C25"
+          },
+          "durationMs": 306.7856549999997
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P27",
+            "status": "PAID",
+            "chargeId": "C26"
+          },
+          "durationMs": 2.9364280000008876
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P28",
+            "status": "PAID",
+            "chargeId": "C27"
+          },
+          "durationMs": 4.003775000001042
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P29",
+            "status": "PAID",
+            "chargeId": "C28"
+          },
+          "durationMs": 2.455964999997377
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P30",
+            "status": "PAID",
+            "chargeId": "C29"
+          },
+          "durationMs": 2.625683999998728
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P31",
+            "status": "PAID",
+            "chargeId": "C30"
+          },
+          "durationMs": 2.3055249999997613
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P32",
+            "status": "PAID",
+            "chargeId": "C31"
+          },
+          "durationMs": 106.68714199999886
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P33",
+            "status": "PAID",
+            "chargeId": "C32"
+          },
+          "durationMs": 6.72403100000156
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P34",
+            "status": "PAID",
+            "chargeId": "C33"
+          },
+          "durationMs": 314.55009000000064
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P35",
+            "status": "PAID",
+            "chargeId": "C34"
+          },
+          "durationMs": 5.50492099999974
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P36",
+            "status": "PAID",
+            "chargeId": "C35"
+          },
+          "durationMs": 109.58957499999815
+        },
+        {
+          "code": 503,
+          "body": {
+            "error": "Temporary bank failure before charge",
+            "paymentId": "P37",
+            "status": "FAILED"
+          },
+          "durationMs": 308.8502789999984
+        },
+        {
+          "code": 503,
+          "body": {
+            "error": "Temporary bank failure before charge",
+            "paymentId": "P38",
+            "status": "FAILED"
+          },
+          "durationMs": 309.2741249999999
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P39",
+            "status": "PAID",
+            "chargeId": "C36"
+          },
+          "durationMs": 10.42778399999952
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P40",
+            "status": "PAID",
+            "chargeId": "C37"
+          },
+          "durationMs": 6.299960000000283
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P41",
+            "status": "PAID",
+            "chargeId": "C38"
+          },
+          "durationMs": 6.565048999997089
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P42",
+            "status": "PAID",
+            "chargeId": "C39"
+          },
+          "durationMs": 5.0559659999998985
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P43",
+            "status": "PAID",
+            "chargeId": "C40"
+          },
+          "durationMs": 3.191061000001355
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P44",
+            "status": "PAID",
+            "chargeId": "C41"
+          },
+          "durationMs": 3.055645000000368
+        },
+        {
+          "code": 503,
+          "body": {
+            "error": "Temporary bank failure before charge",
+            "paymentId": "P45",
+            "status": "FAILED"
+          },
+          "durationMs": 311.4239959999977
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P46",
+            "status": "PAID",
+            "chargeId": "C42"
+          },
+          "durationMs": 6.828405000000203
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P47",
+            "status": "PAID",
+            "chargeId": "C43"
+          },
+          "durationMs": 311.7460719999981
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P48",
+            "status": "PAID",
+            "chargeId": "C44"
+          },
+          "durationMs": 2.793508999999176
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P49",
+            "status": "PAID",
+            "chargeId": "C45"
+          },
+          "durationMs": 106.79196799999772
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P50",
+            "status": "PAID",
+            "chargeId": "C46"
+          },
+          "durationMs": 102.5701939999999
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P51",
+            "status": "PAID",
+            "chargeId": "C47"
+          },
+          "durationMs": 311.46097200000077
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P52",
+            "status": "PAID",
+            "chargeId": "C48"
+          },
+          "durationMs": 6.175975000001927
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P53",
+            "status": "PAID",
+            "chargeId": "C49"
+          },
+          "durationMs": 6.632369999999355
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P54",
+            "status": "PAID",
+            "chargeId": "C50"
+          },
+          "durationMs": 6.133520999999746
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P55",
+            "status": "PAID",
+            "chargeId": "C51"
+          },
+          "durationMs": 9.535822999998345
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P56",
+            "status": "PAID",
+            "chargeId": "C52"
+          },
+          "durationMs": 5.644672999998875
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P57",
+            "status": "PAID",
+            "chargeId": "C53"
+          },
+          "durationMs": 2.7549590000016906
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P58",
+            "status": "PAID",
+            "chargeId": "C54"
+          },
+          "durationMs": 106.88380999999936
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P59",
+            "status": "PAID",
+            "chargeId": "C55"
+          },
+          "durationMs": 6.034260000000359
+        },
+        {
+          "code": 201,
+          "body": {
+            "paymentId": "P60",
+            "status": "PAID",
+            "chargeId": "C56"
+          },
+          "durationMs": 6.044351000000461
+        }
+      ],
+      "summary": {
+        "total": 60,
+        "paid": 56,
+        "failed": 4,
+        "pending": 0,
+        "minMs": 1.633388999998715,
+        "maxMs": 324.40847399999984,
+        "p95Ms": 311.7460719999981
+      },
+      "totalMs": 4539.253687999997,
+      "outstandingBefore": 50000000,
+      "outstandingAfter": 49944000,
+      "statsBefore": {
+        "connections": 1,
+        "requests": 0,
+        "charges": 0,
+        "duplicates": 0
+      },
+      "statsAfter": {
+        "connections": 3,
+        "requests": 91,
+        "charges": 56,
+        "duplicates": 0
+      },
+      "statsDelta": {
+        "connections": 2,
+        "requests": 91,
+        "charges": 56,
+        "duplicates": 0
+      },
+      "monitorConnections": 1,
+      "bankConnections": 1,
+      "pass": true
+    },
+    {
+      "config": {},
+      "results": [
+        {
+          "code": 402,
+          "body": {
+            "error": "Bank limit is 20000000 VND",
+            "paymentId": "P1",
+            "status": "FAILED"
+          },
+          "durationMs": 39.766883000000234
+        }
+      ],
+      "summary": {
+        "total": 1,
+        "paid": 0,
+        "failed": 1,
+        "pending": 0,
+        "minMs": 39.766883000000234,
+        "maxMs": 39.766883000000234,
+        "p95Ms": 39.766883000000234
+      },
+      "totalMs": 39.93192600000111,
+      "outstandingBefore": 50000000,
+      "outstandingAfter": 50000000,
+      "statsBefore": {
+        "connections": 1,
+        "requests": 0,
+        "charges": 0,
+        "duplicates": 0
+      },
+      "statsAfter": {
+        "connections": 2,
+        "requests": 1,
+        "charges": 0,
+        "duplicates": 0
+      },
+      "statsDelta": {
+        "connections": 1,
+        "requests": 1,
+        "charges": 0,
+        "duplicates": 0
+      },
+      "monitorConnections": 0,
+      "bankConnections": 1,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

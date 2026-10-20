@@ -1,0 +1,87 @@
+{
+  "scenario": "1",
+  "mode": "baseline",
+  "at": "2026-10-20T03:05:35.847Z",
+  "node": "v25.9.0",
+  "platform": "linux",
+  "arch": "x64",
+  "runs": [
+    {
+      "bankUrl": "http://localhost:4002",
+      "offline": {
+        "code": 503,
+        "body": {
+          "error": "Cannot connect to bank",
+          "paymentId": "P1",
+          "status": "FAILED"
+        },
+        "durationMs": 35.335316000000034
+      },
+      "read": {
+        "code": 200,
+        "body": {
+          "studentId": "1",
+          "outstanding": 50000000
+        },
+        "durationMs": 2.0242489999999407
+      },
+      "recovered": {
+        "code": 201,
+        "body": {
+          "paymentId": "P2",
+          "status": "PAID",
+          "chargeId": "C1"
+        },
+        "durationMs": 29.33496799999989
+      },
+      "statsAfter": {
+        "connections": 2,
+        "requests": 1,
+        "charges": 1,
+        "duplicates": 0
+      },
+      "outstandingBefore": 50000000,
+      "outstandingAfter": 49999000,
+      "pass": true
+    },
+    {
+      "bankUrl": "http://localhost:4999",
+      "offline": {
+        "code": 503,
+        "body": {
+          "error": "Cannot connect to bank",
+          "paymentId": "P1",
+          "status": "FAILED"
+        },
+        "durationMs": 31.738691000000017
+      },
+      "read": {
+        "code": 200,
+        "body": {
+          "studentId": "1",
+          "outstanding": 50000000
+        },
+        "durationMs": 1.6102429999998549
+      },
+      "recovered": {
+        "code": 201,
+        "body": {
+          "paymentId": "P2",
+          "status": "PAID",
+          "chargeId": "C1"
+        },
+        "durationMs": 40.06800300000009
+      },
+      "statsAfter": {
+        "connections": 2,
+        "requests": 1,
+        "charges": 1,
+        "duplicates": 0
+      },
+      "outstandingBefore": 50000000,
+      "outstandingAfter": 49999000,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

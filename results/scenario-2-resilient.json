@@ -1,0 +1,306 @@
+{
+  "scenario": "2",
+  "mode": "resilient",
+  "at": "2026-10-20T03:08:33.808Z",
+  "node": "v25.9.0",
+  "platform": "linux",
+  "arch": "x64",
+  "runs": [
+    {
+      "config": {
+        "DELAY_MS": "5000"
+      },
+      "results": [
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank deadline exceeded; charge outcome unknown",
+            "paymentId": "P1",
+            "status": "PENDING"
+          },
+          "durationMs": 4020.623384
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank deadline exceeded; charge outcome unknown",
+            "paymentId": "P2",
+            "status": "PENDING"
+          },
+          "durationMs": 4013.512589
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank deadline exceeded; charge outcome unknown",
+            "paymentId": "P3",
+            "status": "PENDING"
+          },
+          "durationMs": 4019.4724670000005
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank deadline exceeded; charge outcome unknown",
+            "paymentId": "P4",
+            "status": "PENDING"
+          },
+          "durationMs": 4021.2653960000007
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank deadline exceeded; charge outcome unknown",
+            "paymentId": "P5",
+            "status": "PENDING"
+          },
+          "durationMs": 4022.598351999999
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank deadline exceeded; charge outcome unknown",
+            "paymentId": "P6",
+            "status": "PENDING"
+          },
+          "durationMs": 4032.8501209999995
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank deadline exceeded; charge outcome unknown",
+            "paymentId": "P7",
+            "status": "PENDING"
+          },
+          "durationMs": 4034.1937749999997
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank deadline exceeded; charge outcome unknown",
+            "paymentId": "P8",
+            "status": "PENDING"
+          },
+          "durationMs": 4035.0309070000003
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank deadline exceeded; charge outcome unknown",
+            "paymentId": "P9",
+            "status": "PENDING"
+          },
+          "durationMs": 4035.901686000001
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank deadline exceeded; charge outcome unknown",
+            "paymentId": "P10",
+            "status": "PENDING"
+          },
+          "durationMs": 4036.736177999999
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank deadline exceeded; charge outcome unknown",
+            "paymentId": "P11",
+            "status": "PENDING"
+          },
+          "durationMs": 4036.887766
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank deadline exceeded; charge outcome unknown",
+            "paymentId": "P12",
+            "status": "PENDING"
+          },
+          "durationMs": 4037.0984660000004
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank deadline exceeded; charge outcome unknown",
+            "paymentId": "P13",
+            "status": "PENDING"
+          },
+          "durationMs": 4037.3189410000005
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank deadline exceeded; charge outcome unknown",
+            "paymentId": "P14",
+            "status": "PENDING"
+          },
+          "durationMs": 4037.4941550000012
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank deadline exceeded; charge outcome unknown",
+            "paymentId": "P15",
+            "status": "PENDING"
+          },
+          "durationMs": 4038.6081699999995
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank deadline exceeded; charge outcome unknown",
+            "paymentId": "P16",
+            "status": "PENDING"
+          },
+          "durationMs": 4038.618294
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank deadline exceeded; charge outcome unknown",
+            "paymentId": "P17",
+            "status": "PENDING"
+          },
+          "durationMs": 4038.4335070000006
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank deadline exceeded; charge outcome unknown",
+            "paymentId": "P18",
+            "status": "PENDING"
+          },
+          "durationMs": 4038.0500760000004
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank deadline exceeded; charge outcome unknown",
+            "paymentId": "P19",
+            "status": "PENDING"
+          },
+          "durationMs": 4037.8404549999996
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank deadline exceeded; charge outcome unknown",
+            "paymentId": "P20",
+            "status": "PENDING"
+          },
+          "durationMs": 4037.8801699999995
+        },
+        {
+          "code": 504,
+          "body": {
+            "error": "Bank deadline exceeded; charge outcome unknown",
+            "paymentId": "P21",
+            "status": "PENDING"
+          },
+          "durationMs": 4037.8439660000004
+        }
+      ],
+      "summary": {
+        "total": 21,
+        "paid": 0,
+        "failed": 0,
+        "pending": 21,
+        "minMs": 4013.512589,
+        "maxMs": 4038.618294,
+        "p95Ms": 4038.6081699999995
+      },
+      "totalMs": 8065.209722,
+      "outstandingBefore": 50000000,
+      "outstandingAfter": 50000000,
+      "statsBefore": {
+        "connections": 1,
+        "requests": 0,
+        "charges": 0,
+        "duplicates": 0
+      },
+      "statsAfter": {
+        "connections": 18,
+        "requests": 12,
+        "charges": 0,
+        "duplicates": 0
+      },
+      "statsDelta": {
+        "connections": 17,
+        "requests": 12,
+        "charges": 0,
+        "duplicates": 0
+      },
+      "monitorConnections": 1,
+      "bankConnections": 16,
+      "reads": [
+        {
+          "code": 200,
+          "body": {
+            "studentId": "1",
+            "outstanding": 50000000
+          },
+          "durationMs": 2.195408999999927
+        },
+        {
+          "code": 200,
+          "body": {
+            "studentId": "1",
+            "outstanding": 50000000
+          },
+          "durationMs": 2.9866549999997005
+        },
+        {
+          "code": 200,
+          "body": {
+            "studentId": "1",
+            "outstanding": 50000000
+          },
+          "durationMs": 3.922225000000253
+        },
+        {
+          "code": 200,
+          "body": {
+            "studentId": "1",
+            "outstanding": 50000000
+          },
+          "durationMs": 3.184613999999783
+        },
+        {
+          "code": 200,
+          "body": {
+            "studentId": "1",
+            "outstanding": 50000000
+          },
+          "durationMs": 2.9190520000001925
+        },
+        {
+          "code": 200,
+          "body": {
+            "studentId": "1",
+            "outstanding": 50000000
+          },
+          "durationMs": 1.5270449999998164
+        },
+        {
+          "code": 200,
+          "body": {
+            "studentId": "1",
+            "outstanding": 50000000
+          },
+          "durationMs": 4.033943999999792
+        },
+        {
+          "code": 200,
+          "body": {
+            "studentId": "1",
+            "outstanding": 50000000
+          },
+          "durationMs": 3.7440450000003693
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "pass": true
+}
