@@ -1,0 +1,16 @@
+{
+  "name": "tuition-payment-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "bank": "node src/bank/server.js",
+    "fee": "node src/fee/server.js"
+  },
+  "dependencies": {
+    "express": "4.22.3"
+  }
+}
